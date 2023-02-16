@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "957ef3c9-2257-4fc2-b5b6-f99f3f4c48aa",
+    "Name": "UsrRealtyFreedomUI_Detail",
+    "ModifiedOnUtc": "\/Date(1676552661000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Нерухомість Freedom UI detail",
+    "DependsOn": []
+  }
+}

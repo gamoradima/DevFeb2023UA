@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Нерухомість тегів у записі розділу" />
+			<Item Name="Columns.Entity.Caption" Value="Нерухомість" />
+			<Item Name="Columns.Tag.Caption" Value="Нерухомість тегів розділу" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>
