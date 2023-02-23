@@ -7,7 +7,16 @@
       "A5": "b3105303-efff-4aa7-9ded-0170bb644b5a",
       "B1": [],
       "B2": [],
-      "B3": [],
+      "B3": [
+        {
+          "UId": "653d6f52-4f40-44fd-9ce7-2cf1e0cad2d4",
+          "A2": "Newtonsoft.Json",
+          "A3": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A4": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A5": "b3105303-efff-4aa7-9ded-0170bb644b5a",
+          "GF1": "null"
+        }
+      ],
       "B6": "754956a6-0ee9-3d74-e80d-165023e42288",
       "B8": "8.0.6.3429",
       "FJ1": [],
@@ -39,6 +48,7 @@
           "A5": "754956a6-0ee9-3d74-e80d-165023e42288",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -68,12 +78,13 @@
           "A4": "58245d3e-a817-485a-aa98-66eba18a9630",
           "A5": "754956a6-0ee9-3d74-e80d-165023e42288",
           "IL2": "e5a553c8-e05a-4c64-932f-f285f37d6d4d",
-          "BL3": "50;184",
+          "BL3": "80;184",
           "BL7": "53818048-7868-48f6-ada0-0ebaa65af628",
           "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
@@ -83,12 +94,30 @@
           "A4": "58245d3e-a817-485a-aa98-66eba18a9630",
           "A5": "754956a6-0ee9-3d74-e80d-165023e42288",
           "IL2": "e5a553c8-e05a-4c64-932f-f285f37d6d4d",
-          "BL3": "571;159",
+          "BL3": "433;184",
           "BL7": "1bd93619-0574-454e-bb4e-cf53b9eb9470",
           "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
           "BN2": "31;31",
           "BO3": true,
           "FC1": []
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaScriptTask",
+          "UId": "f5efb0a3-da83-48e6-9221-dc20053c6a04",
+          "A2": "MyScriptTask",
+          "A3": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A4": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A5": "754956a6-0ee9-3d74-e80d-165023e42288",
+          "IL2": "e5a553c8-e05a-4c64-932f-f285f37d6d4d",
+          "BL3": "231;172",
+          "BL7": "0e490dda-e140-4441-b600-6f5c64d024df",
+          "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "BN2": "69;55",
+          "BO3": true,
+          "BP2": [],
+          "CL2": "FFFFFFFF",
+          "CH1": "var st = JsonConvert.SerializeObject(new {param = \"value\"});\nreturn true;",
+          "CH2": true
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
@@ -100,18 +129,29 @@
           "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
           "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
           "CI1": "0fd918ce-8929-4e50-8f1b-a3e4cb6b6a3c",
+          "CI2": "f5efb0a3-da83-48e6-9221-dc20053c6a04",
+          "CI3": "null",
+          "CI5": "FF939598",
+          "CI6": 1,
+          "CI11": "111;200",
+          "CI12": "231;200"
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaSequenceFlow",
+          "UId": "1dfbee57-92ce-44f5-83fc-8f00c10cdfc0",
+          "A2": "SequenceFlow2",
+          "A3": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A4": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "A5": "754956a6-0ee9-3d74-e80d-165023e42288",
+          "BL7": "0d8351f6-c2f4-4737-bdd9-6fbfe0837fec",
+          "BL8": "58245d3e-a817-485a-aa98-66eba18a9630",
+          "CI1": "f5efb0a3-da83-48e6-9221-dc20053c6a04",
           "CI2": "9e4f47aa-bec5-4062-ad69-b208f977cd72",
           "CI3": "null",
           "CI5": "FF939598",
           "CI6": 1,
-          "CI7": "1;0",
-          "CI8": "-1;0",
-          "CI11": "81;200",
-          "CI12": "571;175",
-          "CI10": {
-            "Item0": "326;200",
-            "Item1": "326;175"
-          }
+          "CI11": "300;200",
+          "CI12": "433;200"
         }
       ],
       "BK9": [],

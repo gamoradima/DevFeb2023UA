@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c7afee95-54ba-4092-9157-bc85ed215426",
+    "Name": "UsrPage_v9t40cp",
+    "ModifiedOnUtc": "\/Date(1676899554000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Перегляд нерухомості Freedom UI сторінка форми"
+  }
+}

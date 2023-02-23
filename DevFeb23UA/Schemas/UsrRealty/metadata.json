@@ -85,13 +85,33 @@
   "A5": "b3105303-efff-4aa7-9ded-0170bb644b5a",
   "S2": "5ca35f10-a101-4c67-a96a-383da6afacfc"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","25a2d5b0-ea95-42b7-9059-a38a5e3a07af","f53dbca4-0844-44ff-899f-9f7f386f6d63","41f57cb8-a539-4260-933a-a8fbb50f2ab8","f6e47bc3-bf22-45e6-9c2b-f452e375d618","bc548e3c-268a-4aec-8cd1-41a8e3862f53","1cd8d155-4851-4e9d-b7e7-7ff6c9b3fdca","ac21971c-78a3-47c4-b017-cc04ee1f7d72"]
++ MetaData.Schema.D2 {
+  "UId": "53996cb2-4383-4dc6-a3df-92f5983201a5",
+  "A2": "UsrManager",
+  "A3": "4df24d8c-d173-49ee-b08f-4c09c7de1d4f",
+  "A4": "4df24d8c-d173-49ee-b08f-4c09c7de1d4f",
+  "A5": "b3105303-efff-4aa7-9ded-0170bb644b5a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E17": "UsrManagerId",
+  "E18": "UsrManagerName"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","25a2d5b0-ea95-42b7-9059-a38a5e3a07af","f53dbca4-0844-44ff-899f-9f7f386f6d63","41f57cb8-a539-4260-933a-a8fbb50f2ab8","f6e47bc3-bf22-45e6-9c2b-f452e375d618","bc548e3c-268a-4aec-8cd1-41a8e3862f53","1cd8d155-4851-4e9d-b7e7-7ff6c9b3fdca","ac21971c-78a3-47c4-b017-cc04ee1f7d72","53996cb2-4383-4dc6-a3df-92f5983201a5"]
+= MetaData.Schema.D20.A2 "UsrRealtyEvents"
 = MetaData.Schema.D36.A3 "4df24d8c-d173-49ee-b08f-4c09c7de1d4f"
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
-- MetaData.Schema.D20
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false

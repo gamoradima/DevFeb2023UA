@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Сторінка редагування - Перегляд нерухомості Classic" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Перегляд нерухомості Classic" />
+		</Items>
+	</Group>
+</Resources>

@@ -2,6 +2,7 @@
 <Resources Culture="uk-UA">
 	<Group Type="String">
 		<Items>
+			<Item Name="BaseElements.MyScriptTask.Caption" Value="check script task" />
 			<Item Name="Caption" Value="Тестовий процес" />
 			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
 			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />

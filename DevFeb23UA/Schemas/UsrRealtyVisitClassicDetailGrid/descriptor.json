@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "e8265777-0a0a-4954-9610-2d2f7ec6c078",
+    "Name": "UsrRealtyVisitClassicDetailGrid",
+    "ModifiedOnUtc": "\/Date(1677069552000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Схема деталі: \"Перегляди нерухомості\""
+  }
+}

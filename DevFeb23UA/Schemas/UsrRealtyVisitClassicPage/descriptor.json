@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "6e127401-ce7d-402f-b48e-8299ec23f6a0",
+    "Name": "UsrRealtyVisitClassicPage",
+    "ModifiedOnUtc": "\/Date(1676898052000)\/",
+    "Parent": {
+      "UId": "d3cc497c-f286-4f13-99c1-751c468733c0",
+      "Name": "BasePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Сторінка редагування - Перегляд нерухомості Classic"
+  }
+}

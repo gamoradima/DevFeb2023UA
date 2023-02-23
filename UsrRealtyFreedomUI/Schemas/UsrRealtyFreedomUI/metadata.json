@@ -71,7 +71,7 @@
   "E5": false,
   "E12": {
     "FB1": 4,
-    "FB4": "R",
+    "FB4": "R-",
     "FB5": 5
   }
 }
@@ -91,7 +91,16 @@
   "A5": "72505fda-3ec7-47fc-af63-7e5cb90c744a",
   "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","22d97f89-649b-4724-a9ec-8e6b6837fa86","1293f096-e7e5-9757-8032-b97ffc7216e8","5e9deb9c-41d2-9ded-af5c-3298684423d0","d845e878-54e2-144d-ac76-9a10624ec620","a905989d-5184-c8a1-de4b-ecac6fd5be72","a61e20b7-278b-0523-ca0c-fcff0b024824","4c0e837e-9ae1-d8e9-8679-2ca39db1896c"]
++ MetaData.Schema.D2 {
+  "UId": "cc7c0a4a-da53-bf8b-a328-a4116254bc15",
+  "A2": "UsrRichText",
+  "A3": "9fbcacdb-a657-45cf-a798-e3f47aa30539",
+  "A4": "9fbcacdb-a657-45cf-a798-e3f47aa30539",
+  "A5": "72505fda-3ec7-47fc-af63-7e5cb90c744a",
+  "S2": "79bccffa-8c8b-4863-b376-a69d2244182b",
+  "E25": true
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","22d97f89-649b-4724-a9ec-8e6b6837fa86","1293f096-e7e5-9757-8032-b97ffc7216e8","5e9deb9c-41d2-9ded-af5c-3298684423d0","d845e878-54e2-144d-ac76-9a10624ec620","a905989d-5184-c8a1-de4b-ecac6fd5be72","a61e20b7-278b-0523-ca0c-fcff0b024824","4c0e837e-9ae1-d8e9-8679-2ca39db1896c","cc7c0a4a-da53-bf8b-a328-a4116254bc15"]
 = MetaData.Schema.D20.A2 "UsrRealtyFreedomUIEvents"
 = MetaData.Schema.D36.A3 "9fbcacdb-a657-45cf-a798-e3f47aa30539"
 - MetaData.Schema.EG1.B6

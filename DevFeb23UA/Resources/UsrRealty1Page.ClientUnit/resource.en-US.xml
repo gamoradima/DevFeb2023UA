@@ -3,6 +3,9 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Сторінка редагування: &quot;Нерухомість Classic&quot;" />
+			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="ПИЩЬ!" />
+			<Item Name="LocalizableStrings.Tab1bc441b6TabLabelTabCaption.Value" Value="Перегляди" />
+			<Item Name="LocalizableStrings.UsrSchemaa9a0caaaDetail027dbfbdDetailCaptionOnPage.Value" Value="Перегляд нерухомості Classic" />
 		</Items>
 	</Group>
 </Resources>

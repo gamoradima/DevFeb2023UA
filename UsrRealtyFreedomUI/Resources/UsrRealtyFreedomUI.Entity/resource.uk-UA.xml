@@ -9,6 +9,7 @@
 			<Item Name="Columns.UsrNumber.Caption" Value="Нумерація" />
 			<Item Name="Columns.UsrPriceUSD.Caption" Value="Ціна, USD" />
 			<Item Name="Columns.UsrRealtyOffer.Caption" Value="Тип пропозиції" />
+			<Item Name="Columns.UsrRichText.Caption" Value="Rich text" />
 			<Item Name="Columns.UsrType.Caption" Value="Тип" />
 		</Items>
 	</Group>

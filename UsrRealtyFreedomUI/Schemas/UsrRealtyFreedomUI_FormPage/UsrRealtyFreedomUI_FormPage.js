@@ -191,6 +191,44 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 			},
 			{
 				"operation": "insert",
+				"name": "FlexContainer_baxnbid",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"items": []
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Button_edppvdt",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_edppvdt_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {
+						"request": "usr.MyButtonRequest"
+					},
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_baxnbid",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "ComboBox_z4vf6nm",
 				"values": {
 					"layoutConfig": {
@@ -283,6 +321,331 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 				"parentName": "GeneralInfoTab",
 				"propertyName": "items",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "RichTextEditor_l6zd4o8",
+				"values": {
+					"type": "crt.RichTextEditor",
+					"label": "$Resources.Strings.StringAttribute_bp570td",
+					"labelPosition": "auto",
+					"control": "$StringAttribute_bp570td"
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "TabPanel_8br1oqa",
+				"values": {
+					"type": "crt.TabPanel",
+					"items": [],
+					"mode": "tab",
+					"styleType": "default",
+					"bodyBackgroundColor": "primary-contrast-500",
+					"tabTitleColor": "auto",
+					"selectedTabTitleColor": "auto",
+					"headerBackgroundColor": "auto",
+					"underlineSelectedTabColor": "auto"
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "TabContainer_pvm2a06",
+				"values": {
+					"type": "crt.TabContainer",
+					"items": [],
+					"caption": "#ResourceString(TabContainer_pvm2a06_caption)#",
+					"iconPosition": "only-text",
+					"visible": true
+				},
+				"parentName": "TabPanel_8br1oqa",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ExpansionPanel_5sgeszc",
+				"values": {
+					"type": "crt.ExpansionPanel",
+					"tools": [],
+					"items": [],
+					"title": "#ResourceString(ExpansionPanel_5sgeszc_title)#",
+					"toggleType": "default",
+					"togglePosition": "before",
+					"expanded": true,
+					"labelColor": "auto",
+					"fullWidthHeader": false,
+					"titleWidth": 20,
+					"padding": {
+						"top": "small",
+						"bottom": "small",
+						"left": "none",
+						"right": "none"
+					},
+					"visible": true
+				},
+				"parentName": "TabContainer_pvm2a06",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_2y9a9yg",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax(max-content, 24px)",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_5sgeszc",
+				"propertyName": "tools",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "FlexContainer_x7hv2vz",
+				"values": {
+					"type": "crt.FlexContainer",
+					"direction": "row",
+					"gap": "none",
+					"alignItems": "center",
+					"items": [],
+					"layoutConfig": {
+						"colSpan": 1,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_2y9a9yg",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailAddBtn_0rwqm48",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailAddBtn_0rwqm48_caption)#",
+					"icon": "add-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.CreateRecordRequest",
+						"params": {
+							"entityName": "UsrRealtyVisitFreedomUI",
+							"defaultValues": [
+								{
+									"attributeName": "UsrParentRealtyFreedomUI",
+									"value": "$Id"
+								}
+							]
+						}
+					},
+					"visible": true,
+					"clickMode": "default"
+				},
+				"parentName": "FlexContainer_x7hv2vz",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailRefreshBtn_unq5r93",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailRefreshBtn_unq5r93_caption)#",
+					"icon": "reload-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.LoadDataRequest",
+						"config": {
+							"loadType": "reload"
+						}
+					}
+				},
+				"parentName": "FlexContainer_x7hv2vz",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSettingsBtn_jipzyg3",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(GridDetailSettingsBtn_jipzyg3_caption)#",
+					"icon": "actions-button-icon",
+					"iconPosition": "only-icon",
+					"color": "default",
+					"size": "medium",
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "FlexContainer_x7hv2vz",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailExportDataBtn_45shxu2",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailExportDataBtn_45shxu2_caption)#",
+					"icon": "export-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ExportDataGridToExcelRequest"
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_jipzyg3",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailImportDataBtn_n8polrs",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(GridDetailImportDataBtn_n8polrs_caption)#",
+					"icon": "import-button-icon",
+					"color": "default",
+					"size": "medium",
+					"clicked": {
+						"request": "crt.ImportDataRequest"
+					}
+				},
+				"parentName": "GridDetailSettingsBtn_jipzyg3",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "GridDetailSearchFilter_ryiryha",
+				"values": {
+					"type": "crt.SearchFilter",
+					"placeholder": "#ResourceString(GridDetailSearchFilter_ryiryha_placeholder)#",
+					"iconOnly": true
+				},
+				"parentName": "FlexContainer_x7hv2vz",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_zwy9hn4",
+				"values": {
+					"type": "crt.GridContainer",
+					"rows": "minmax( 32px, 32px)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					},
+					"styles": {
+						"overflow-x": "hidden"
+					},
+					"items": []
+				},
+				"parentName": "ExpansionPanel_5sgeszc",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "DataGrid_cbzbtbp",
+				"values": {
+					"type": "crt.DataGrid",
+					"layoutConfig": {
+						"colSpan": 2,
+						"column": 1,
+						"row": 1,
+						"rowSpan": 6
+					},
+					"visible": true,
+					"fitContent": true,
+					"items": "$DataGrid_cbzbtbp",
+					"primaryColumnName": "DataGrid_cbzbtbpDS_Id",
+					"columns": [
+						{
+							"id": "34d804b9-47ce-7a63-0cca-292735ddf021",
+							"code": "DataGrid_cbzbtbpDS_UsrVisitDateTime",
+							"path": "UsrVisitDateTime",
+							"caption": "#ResourceString(DataGrid_cbzbtbpDS_UsrVisitDateTime)#",
+							"dataValueType": 7
+						},
+						{
+							"id": "cfcb5fa9-b8f8-c9c4-3887-fa47375c4ce0",
+							"code": "DataGrid_cbzbtbpDS_UsrPotentialCustomer",
+							"path": "UsrPotentialCustomer",
+							"caption": "#ResourceString(DataGrid_cbzbtbpDS_UsrPotentialCustomer)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						},
+						{
+							"id": "2da5716f-1bb4-bf19-34a7-6aecef4e8992",
+							"code": "DataGrid_cbzbtbpDS_UsrComment",
+							"path": "UsrComment",
+							"caption": "#ResourceString(DataGrid_cbzbtbpDS_UsrComment)#",
+							"dataValueType": 28,
+							"width": 138
+						},
+						{
+							"id": "4c8a633d-1100-4ea6-ddc2-4034e937f05a",
+							"code": "DataGrid_cbzbtbpDS_UsrManager",
+							"path": "UsrManager",
+							"caption": "#ResourceString(DataGrid_cbzbtbpDS_UsrManager)#",
+							"dataValueType": 10,
+							"referenceSchemaName": "Contact"
+						}
+					],
+					"features": {
+						"editable": false
+					}
+				},
+				"parentName": "GridContainer_zwy9hn4",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "GridContainer_i8z4qro",
+				"values": {
+					"type": "crt.GridContainer",
+					"items": [],
+					"rows": "minmax(32px, max-content)",
+					"columns": [
+						"minmax(32px, 1fr)",
+						"minmax(32px, 1fr)"
+					],
+					"gap": {
+						"columnGap": "large",
+						"rowGap": 0
+					}
+				},
+				"parentName": "TabContainer_pvm2a06",
+				"propertyName": "items",
+				"index": 1
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfig: /**SCHEMA_VIEW_MODEL_CONFIG*/{
@@ -326,6 +689,46 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 					"modelConfig": {
 						"path": "PDS.UsrComment"
 					}
+				},
+				"DataGrid_cbzbtbp": {
+					"isCollection": true,
+					"modelConfig": {
+						"path": "DataGrid_cbzbtbpDS"
+					},
+					"viewModelConfig": {
+						"attributes": {
+							"DataGrid_cbzbtbpDS_UsrVisitDateTime": {
+								"modelConfig": {
+									"path": "DataGrid_cbzbtbpDS.UsrVisitDateTime"
+								}
+							},
+							"DataGrid_cbzbtbpDS_UsrPotentialCustomer": {
+								"modelConfig": {
+									"path": "DataGrid_cbzbtbpDS.UsrPotentialCustomer"
+								}
+							},
+							"DataGrid_cbzbtbpDS_UsrComment": {
+								"modelConfig": {
+									"path": "DataGrid_cbzbtbpDS.UsrComment"
+								}
+							},
+							"DataGrid_cbzbtbpDS_UsrManager": {
+								"modelConfig": {
+									"path": "DataGrid_cbzbtbpDS.UsrManager"
+								}
+							},
+							"DataGrid_cbzbtbpDS_Id": {
+								"modelConfig": {
+									"path": "DataGrid_cbzbtbpDS.Id"
+								}
+							}
+						}
+					}
+				},
+				"StringAttribute_bp570td": {
+					"modelConfig": {
+						"path": "PDS.UsrRichText"
+					}
 				}
 			}
 		}/**SCHEMA_VIEW_MODEL_CONFIG*/,
@@ -349,11 +752,51 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 							}
 						}
 					}
+				},
+				"DataGrid_cbzbtbpDS": {
+					"type": "crt.EntityDataSource",
+					"scope": "viewElement",
+					"config": {
+						"entitySchemaName": "UsrRealtyVisitFreedomUI",
+						"attributes": {
+							"UsrVisitDateTime": {
+								"path": "UsrVisitDateTime"
+							},
+							"UsrPotentialCustomer": {
+								"path": "UsrPotentialCustomer"
+							},
+							"UsrComment": {
+								"path": "UsrComment"
+							},
+							"UsrManager": {
+								"path": "UsrManager"
+							}
+						}
+					}
 				}
 			},
-			"primaryDataSourceName": "PDS"
+			"primaryDataSourceName": "PDS",
+			"dependencies": {
+				"DataGrid_cbzbtbpDS": [
+					{
+						"attributePath": "UsrParentRealtyFreedomUI",
+						"relationPath": "PDS.Id"
+					}
+				]
+			}
 		}/**SCHEMA_MODEL_CONFIG*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "usr.MyButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					this.console.log("Button works...");
+					Terrasoft.showInformation("My button was pressed.");
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			}
+		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};

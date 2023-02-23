@@ -5,6 +5,16 @@
 			<Item Name="Caption" Value="Нерухомість Freedom UI form page" />
 			<Item Name="LocalizableStrings.addRecord_ce39y9x_caption.Value" Value="Додати новий" />
 			<Item Name="LocalizableStrings.addRecord_jc8czrb_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.Button_edppvdt_caption.Value" Value="ПИЩЬ!" />
+			<Item Name="LocalizableStrings.ExpansionPanel_5sgeszc_title.Value" Value="Перегляди" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_0rwqm48_caption.Value" Value="Створити" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_45shxu2_caption.Value" Value="Експорт в Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_n8polrs_caption.Value" Value="Імпорт даних" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_unq5r93_caption.Value" Value="Оновити" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ryiryha_placeholder.Value" Value="Вибрати" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jipzyg3_caption.Value" Value="Дії" />
+			<Item Name="LocalizableStrings.TabContainer_pvm2a06_caption.Value" Value="Вкладка 1" />
+			<Item Name="LocalizableStrings.TabContainer_v1hkpzv_caption.Value" Value="Вкладка 2" />
 		</Items>
 	</Group>
 </Resources>

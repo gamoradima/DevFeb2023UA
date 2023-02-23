@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Перегляд нерухомості Freedom UI" />
+			<Item Name="Columns.UsrComment.Caption" Value="Коментар" />
+			<Item Name="Columns.UsrManager.Caption" Value="Менеджер" />
+			<Item Name="Columns.UsrParentRealtyFreedomUI.Caption" Value="Батьківська нерухомість Freedom UI" />
+			<Item Name="Columns.UsrPotentialCustomer.Caption" Value="Потенційний клиєнт" />
+			<Item Name="Columns.UsrVisitDateTime.Caption" Value="Дата та час перегляду" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

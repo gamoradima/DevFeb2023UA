@@ -2,20 +2,13 @@
   "Descriptor": {
     "UId": "a9fab937-607e-4346-442f-6b4cbcfb7e43",
     "Name": "UsrRealtyOfferPrice",
-    "ModifiedOnUtc": "\/Date(1676552285000)\/",
+    "ModifiedOnUtc": "\/Date(1676982594000)\/",
     "InstallType": 0,
     "Schema": {
       "UId": "27c2c34f-56f6-4f68-af9d-f2b772fac84f",
       "Name": "UsrRealtyOfferPrice"
     },
     "Columns": [
-      {
-        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Description",
-        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
-      },
       {
         "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
         "IsForceUpdate": false,
@@ -29,6 +22,20 @@
         "IsKey": true,
         "ColumnName": "Id",
         "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "0b1636ce-1b89-b54a-db89-caa918c72f4b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "UsrCommissionMultiplier",
+        "DataTypeValueUId": "ff22e049-4d16-46ee-a529-92d8808932dc"
       }
     ]
   }

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Перегляд нерухомості Freedom UI сторінка форми" />
+			<Item Name="LocalizableStrings.addRecord_99ldg30_caption.Value" Value="Додати новий" />
+			<Item Name="LocalizableStrings.addRecord_ofb0y4a_caption.Value" Value="Додати новий" />
+		</Items>
+	</Group>
+</Resources>

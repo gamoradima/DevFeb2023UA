@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.3afa8d9a-2593-f8f5-cab2-4a370584fdf0.Caption" Value="Показати елементи: ПИЩЬ!" />
+			<Item Name="Caption" Value="Нерухомість Freedom UI form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>
